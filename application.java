@@ -74,7 +74,7 @@ public class application {
         //executing task1 every 100ms
         timer.scheduleAtFixedRate(task1, 0, 100);
         //executing task12 every 2min
-        timer.scheduleAtFixedRate(task2, 6000, 120000);
+        timer.scheduleAtFixedRate(task2, 120000, 120000);
 
     }
 
